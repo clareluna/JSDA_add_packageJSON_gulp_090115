@@ -1,0 +1,28 @@
+{
+  "name": "greet",
+  "version": "0.1.0",
+  "description": "greetings app",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "custom": "echo 'hello from command line'"
+  },
+  "bin": "bin/greet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows/sea-d49.git"
+  },
+  "author": "clarelunamonahan@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefellows/sea-d49/issues"
+  },
+  "homepage": "https://github.com/codefellows/sea-d49#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.0"
+  }
+}
